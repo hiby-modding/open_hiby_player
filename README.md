@@ -1,6 +1,6 @@
 # Open HiBy Player
 
-**TODOS**: look at [TODO.md](open_hiby_player/TODO.md) to see what has to be done
+**TODOS**: look at [TODO.md](TODO.md) to see what has to be done
 
 **Terminology**:
 - "host device", "host": This refers to the device you are developing on, such as your laptop or PC.
