@@ -38,7 +38,6 @@ This will open an SDL2 graphical window. Clicking and stuff works. Scrolling is 
 
 Note that the battery display doesnt work. That's intended. No real point in hooking that up for host testing.
 
----
 
 ## 2. Cross-Compiling for the HiBy Device (MIPS Target)
 
@@ -51,7 +50,7 @@ make target
 ```
 This builds the cross compilers, then generates the binary `open_hiby_player_target`. This generated binary can be transfered to the device, and run from anywhere.
 
-> ![TIP]
+> [!TIP]
 > You can use `-j$(nproc)` to speed up builds significantly. Or you can manually set the number of compile threads. `-j4` sets it to 4 threads, for example.
 > 
 > So in practice, that would be running `make target -j$(nproc)` to make the target build with multithreading.
