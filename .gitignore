@@ -1,0 +1,7 @@
+build_host/
+build_target/
+.cache/clangd/index/
+rockbox-toolchain/
+compile_commands.json
+open_hiby_player_host
+open_hiby_player_target
