@@ -1,5 +1,8 @@
 # ToDos
 
+## Plugin System
+- [ ] figure out how the heck a plugin system might work
+
 ## Project
 - [ ] clean up repo. move downloaded dependencies to their own spot, put builds and build folders all together, take random stuff out of the top level (such as lv_conf.h)
 - [ ] make a `.upt` file that allows for booting open_hiby_player
