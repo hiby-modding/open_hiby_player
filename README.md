@@ -9,7 +9,14 @@
 **Supported Devices:**
 As I only have an R3Pro II, that's what's currently supported. But very very little goes into "porting" it to other devices, such as the R1. The only notable differences are the screen size and lack of the previous track button.
 
-## 1. Local Development (Linux Host Simulation)
+## Plugin System
+I want to build-in a plugin system. This would let functionality, new pages, UI behaviour, etc. be added after the fact without having to change the source code. This would let people only have the stuff that they need. So i pretty much want to build out a barebones player, and make plugins for all the stuff that not everyone needs. Like:
+- audiobook player
+- settings like MSEB, Sound Field, NOS, DRE, etc. (for playback feature parity with stock OS)
+- bluetooth support (recieving and transmitting)
+- wifi media transfering
+
+## Local Development (Linux Host Simulation)
 
 Running the GUI simulated on the host system (i.e. your laptop).
 
@@ -39,7 +46,7 @@ This will open an SDL2 graphical window. Clicking and stuff works. Scrolling is 
 Note that the battery display doesnt work. That's intended. No real point in hooking that up for host testing.
 
 
-## 2. Cross-Compiling for the HiBy Device (MIPS Target)
+## Cross-Compiling for the HiBy Device (MIPS Target)
 
 Building a binary that can be placed on the HiBy OS device.
 
